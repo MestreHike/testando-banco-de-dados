@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Formularios</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="Imagens/icones.png" type="image/x-icon">
+    <meta>
+</head>
+<body>
+    <header>
+        <h1>Formularios.com</h1>
+    </header>
+    <main>
+        <section class="form-container">
+            <h2>Cadastro</h2>
+            <form action="cadastro.php" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmar-senha">Confirmar Senha:</label>
+                    <input type="password" id="confirmar-senha" name="confirmar_senha" required>
+                </div>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Formularios.com | Feito em 2024 | Criado por henrique pereira</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
